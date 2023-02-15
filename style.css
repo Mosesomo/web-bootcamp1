@@ -1,0 +1,350 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+    ul{
+        list-style:none;
+        }
+        body{
+            font-family:"poppins", sans-serif;
+            font-family:"Roboto", sans-serif;
+            }
+            
+            .header{
+                display:flex;
+                justify-content:space-between;
+                padding:20px 6em;
+                background-color:white;
+                }
+                
+                .headerLogo{
+                    display:flex;
+                    padding:15px 10px;
+                    justify-content:space-between;
+                    gap:1em;
+                    }
+                
+               .headerLogoOne {
+                    font-size:20px;
+                    font-weight:900;
+                    cursor:pointer;
+                    font-style:italic
+                    color:white;
+                    }
+                   .headerLogoOne span{
+                       border-top-right-radius:20px;
+                       border-bottom-left-radius:20px;
+                       gap:1em;
+                       }
+                     #headerLogoTwo img{
+                         border-radius:50%;
+                         height:2cm;
+                         width:2cm;
+                         }
+                    
+                    .headerNavLink ul{
+                       display:flex;
+                        gap:2em;
+                        }
+                        
+                        .headerNavLink ul li{
+                            cursor:pointer;
+                            color:black;
+                            }
+                           
+                            #specialNav{
+                                display:flex;
+                                flex-direction:row-reverse;
+                                gap:1px;
+                                color:black;
+                                }
+                                
+                                #headerSup{
+                                    background-color:red;
+                                    height:3px;
+                                    width:5px;
+                                    border-radius:50%;
+                                    padding:4px;
+                                    }
+                                    
+                                    .headerCartSearch ul{
+                                        display:flex;
+                                        justify-content:space-between;
+                                       align-items:center;
+                                       gap:1em;
+                                        }
+                                      
+                                        #specialCart{
+                                            display:flex;
+                                            flex-direction:row-reverse;
+                                            gap:1px;
+                                             height:20px;
+                                             width:16px;
+                                            color:black;
+                                            }
+                                            
+                                            #headerSupp{
+                                                background-color:red;
+                                                border-radius:50%;
+                                                padding:4px;
+                                                 font-size:10px;
+                                                 height:12px;
+                                                 width:10px;
+                                                 display:flex;
+                                                 justify-content:center;
+                                                 align-items:center;
+                                                 color:black;
+                                                 font-weight:300;
+                                                }
+                                               .headerDivider{
+                                                   width:2px;
+                                                   background-color:gray;
+                                                   border-radius:4px;
+                                                   height:30px;
+                                                   }
+                                                  
+                                                   .headerCartSearch span{
+                                                       font-size:24px;
+                                                       cursor:pointer;
+                                                       color:black;
+                                                       }
+                                                       
+                                                       .hero{
+                                                           padding:20px 10px;
+                                                           background-color:#171717;
+                                                           }
+                                                           
+                                                          #heroLabel{
+                                                              display:flex;
+                                                              gap:1em;
+                                                              font-size:4em;
+                                                              text-align:center;
+                                                              padding:10px 30px
+                                                              color:white;
+                                                              }     
+                                                              #heroSpecial{
+                                                                 gap:1em;
+                                                                 display:flex;
+                                                                 padding:15px 10px;
+                                                                justify-content:space-between;
+                                                               color:white;
+                                                               background-color:red;
+                                                               border-radius:50%;
+                                 
+                                                                  }
+                                                               
+                                                                     }
+                                                                  #heroSpecialSup{
+                                                                      border-radius:50%;
+                                                                      background-color:white;
+                                                                      padding:4px;
+                                                                      color:red;
+                                                                      height:13px;
+                                                                      width:13px;
+                                                                      display:flex;
+                                                                     font-weight:900;
+                                                                     justify-content:center;
+                                                                     align-content:center;
+                                                                     gap:1px;
+                                                                      }                                            
+                                                              
+                                                              #heroLabelSpecial{
+                                                                  background-color:red;
+                                                                  color:white;
+                                                                  border-top-right-radius:20px;
+                                                                  border-bottom-left-radius:20px;
+                                                                  padding:6px;
+                                                                  }
+                                                                  
+                                                                  .heroText{
+                                                                      color:white;
+                                                                      text-align:center;
+                                                                      margin-top:1em;
+                                                                      }
+                                                                      
+                                                                      .heroImage{
+                                                                          display:flex;
+                                                                          flex-wrap:wrap;
+                                                                          justify-content:space-evenly;
+                                                                          margin-top:3em;
+                                                                          }
+                                                                         .heroMainImage img{
+                                                                              border-radius:20px;
+                                                                             height:600px;
+                                                                             width:100%;
+                                                                             }
+                                                                             .heroImageStats{
+                                                                                margin-top:18px;
+                                                                                 }
+                                                                                 
+                                                                                 .heroImageStats span{
+                                                                                     color:white;
+                                                                                      cursor:pointer;
+                                                                                      font-weight:500;
+                                                                                      margin-bottom:18px;
+                                                                                     }
+                                                                                     
+                                                                                     .heroImageStats p{
+                                                                                        margin-bottom:60px;
+                                                                                        color:gray;
+                                                                                        cursor:pointer;
+                                                                                        margin-top:60px;
+                                                                                         }
+                                                                                        
+                                                                                         .footer{
+                                                                                           display:flex;
+                                                                                            justify-content:space-between;
+                                                                                            padding:20px 6em;
+                                                                                            background-color:#171717;
+                                                                                            flex-wrap:wrap;
+                                                                                             }
+                                                                                            
+                                                                                             .footerLeft{
+                                                                                                 flex:0.5
+                                                                                                 }
+                                                                                                 
+                                                                                                 .footerLeft h2{
+                                                                                                     font-size:2em;
+                                                                                                     color:#fff;
+                                                                                                     font-weight:bolder;
+                                                                                                     }
+                                                                                                     
+                                                                                                     .footerExplore{
+                                                                                                         background-color:red;
+                                                                                                        margin-top:2em;
+                                                                                                        cursor:pointer;
+                                                                                                        border-radius:10px;
+                                                                                                        color:white;
+                                                                                                        padding:15px 24px;
+                                                                                                        width:50%;
+                                                                                                         }
+                                                                                                         
+                                                                                                         .footerRight{
+                                                                                                             flex:0.5;
+                                                                                                             display:flex;
+                                                                                                             justify-content:space-evenly;
+                                                                                                             padding:1em; 
+                                                                                                             margin-right:1.3em;
+                                                                                                             //cursor:pointer;
+                                                                                                             }
+                                                                                                             
+                                                                                                             .footerRightOne{
+                                                                                                                 flex:0.5;
+                                                                                                                 display:flex;
+                                                                                                                 flex-direction:column;
+                                                                                                                 gap:1em;
+                                                                                                                 margin-top:1em;
+                                                                                                                 
+                                                                                                                 }
+                                                                                                                 
+                                                                                                                 .rightOneItemOne{
+                                                                                                                     background-color:red;
+                                                                                                                     padding:1em 1.3em;
+                                                                                                                     color:white;
+                                                                                                                     text-align:center;
+                                                                                                                     border-radius:8px;
+                                                                                                                     cursor:pointer;
+                                                                                                                     }
+                                                                                                                    
+                                                                                                                     .rightOneItemOne h1{
+                                                                                                                         font-style:italic;
+                                                                                                                         margin-bottom:1em;
+                                                                                                                         letter-spacing:1em;
+                                                                                                                         font-weight:900;
+                                                                                                                         cursor:pointer;
+                                                                                                                         }
+                                                                                                                        
+                                                                                                                         .rightOneItemTwo{
+                                                                                                                             color:#fff;
+                                                                                                                             text-align:center;
+                                                                                                                             border-radius:8px;
+                                                                                                                             padding:1em 1.3em;
+                                                                                                                             border: 1px solid #ccc;
+                                                                                                                             cursor:pointer;
+                                                                                                                             }
+                                                                                                                             
+                                                                                                                             .rightOneItemTwo h1{
+                                                                                                                                 font-style:italic;
+                                                                                                                                 font-weight:900;
+                                                                                                                                 margin-bottom:1em;
+                                                                                                                                 letter-spacing:1em;
+                                                                                                                                 cursor:pointer;
+                                                                                                                                 }
+                                                                                                                                 
+                                                                                                                                 .footerRightTwo{
+                                                                                                                                     flex:0.5;
+                                                                                                                                     displayl:flex;
+                                                                                                                                     flex-direction:column;
+                                                                                                                                     margin-top:0px;
+                                                                                                                                    gap:1em;
+                                                                                                                                     }
+                                                                                                                                     
+                                                                                                                                     .rightTwoItemOne{
+                                                                                                                                         color:#fff;
+                                                                                                                                         text-align:center;
+                                                                                                                                         border-radius:8px;
+                                                                                                                                         padding:1em 1.3em;
+                                                                                                                                         border:1px solid #ccc;
+                                                                                                                                         }
+                                                                                                                                         
+                                                                                                                                         .rightTwoItemOne h1{
+                                                                                                                                             font-style:italic;
+                                                                                                                                             font-weight:900;
+                                                                                                                                             letter-spacing:0em;
+                                                                                                                                             margin-bottom:1em;
+                                                                                                                                             }
+                                                                                                                                             
+                                                                                                                                             .rightTwoItemTwo{
+                                                                                                                                                 color:#fff;
+                                                                                                                                                 text-align:center;
+                                                                                                                                                 border-radius:8px;
+                                                                                                                                                 padding:1em 1.3em;
+                                                                                                                                                 border:1px solid #ccc;
+                                                                                                                                                 }
+                                                                                                                                                 
+                                                                                                                                                 .rightTwoItemTwo h1{
+                                                                                                                                                     font-style:italic;
+                                                                                                                                                     margin-bottom:1em;
+                                                                                                                                                     font-weight:900;                                                                                                                                                  fi
+                                                                                                                                                     }
+                                                                                                                                                     
+                                                                                                                                                     @media(max-width: 700px){
+                                                                                                                                                         .headerNavLink{
+                                                                                                                                                             display:none;
+                                                                                                                                                             }
+                                                                                                                                                             
+                                                                                                                                                             .hero{
+                                                                                                                                                                 padding:20px 10px;
+                                                                                                                                                                 }
+                                                                                                                                                                 .header{
+                                                                                                                                                                    display:flex;
+                                                                                                                                                                    justify-content:space-between;
+                                                                                                                                                                    padding:20px 20px;
+                                                                                                                                                                     }
+                                                                                                                                                                     
+                                                                                                                                                                     .heroLabel{
+                                                                                                                                                                         font-size:1em;
+                                                                                                                                                                         padding:10px 20px;
+                                                                                                                                                                         align-items:center;
+                                                                                                                                                                         }
+                                                                                                                                                                         
+                                                                                                                                                                         .heroMainImage img{
+                                                                                                                                                                             border-radius:20px;
+                                                                                                                                                                             height:600px;
+                                                                                                                                                                             width:100%;
+                                                                                                                                                                             object-fit:cover;
+                                                                                                                                                                             }
+                                                                                                                                                                             .footer{
+                                                                                                                                                                                 display:block;
+                                                                                                                                                                                 padding:20px 20px;
+                                                                                                                                                                                 }
+                                                                                                                                                                               
+                                                                                                                                                                                 .footerLeft{
+                                                                                                                                                                                     margin-bottom:1em;
+                                                                                                                                                                                     }
+                                                                                                                                                                                     
+                                                                                                                                                                                     .footerRight{
+                                                                                                                                                                                         display:block;
+                                                                                                                                                                                         }
+                                                                                                                                                         }
